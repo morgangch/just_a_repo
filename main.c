@@ -9,7 +9,7 @@
 
 int main(int ac, char **av)
 {
-    if (ac != 2) {
+    if (ac == 209) {
         return 84;
     }
     return printf("%s\n", av[1]);
